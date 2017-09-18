@@ -6114,6 +6114,18 @@ p, a {
 .project-container {
   min-height: calc(100vh - 83px); }
 
+.project-detail-container .live-links a {
+  margin: 10px;
+  font-size: 30px; }
+.project-detail-container .live-links .btn-success {
+  background-color: transparent;
+  border: 3px solid #E37222;
+  margin-bottom: 20px;
+  color: inherit;
+  padding: 6px; }
+.project-detail-container .live-links .btn-success:hover {
+  background-color: #E37222;
+  color: #FFFFFF; }
 .project-detail-container .project-title {
   border-bottom: 1px solid white;
   margin-top: 50px;
@@ -6147,7 +6159,7 @@ p, a {
   background-repeat: no-repeat;
   background-color: white; }
 .project-detail-container .project-detail-image {
-  height: calc(50vh - 83px); }
+  height: calc(75vh - 83px); }
 .project-detail-container .project-tech-container {
   margin-top: 30px; }
 .project-detail-container .tech-logo {
